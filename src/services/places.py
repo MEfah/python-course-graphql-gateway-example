@@ -8,6 +8,18 @@ class PlacesService:
     Сервис для работы с данными о любимых местах.
     """
 
+    def get_place(self, place_id: int) -> PlaceModel:
+        """
+        Получение любимого места по идентификатору.
+        
+        :param place_id: Идентификатор любимого места.
+        :return:
+        """
+        
+        result = {place.id: place for place in PlacesService.get_places(self)}
+        return result.get(place_id, None)
+
+
     def get_places(self) -> list[PlaceModel]:
         """
         Получение списка любимых мест.

@@ -1,0 +1,67 @@
+[
+  {
+      "source": {
+          "id": "google-news",
+          "name": "Google News"
+      },
+      "author": "Sport Klub Srbija",
+      "title": "Uživo: Partizan u sve većem minusu - Sport Klub Srbija",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMiW2h0dHBzOi8vc3BvcnRrbHViLm4xaW5mby5ycy9rb3NhcmthL2FiYS1sZWFndWUvc3R1ZGVudHNraS1jZW50YXItcGFydGl6YW4tdXppdm8tc3BvcnQta2x1Yi_SAQA?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2024-03-24T16:07:30Z",
+      "content": null
+  },
+  {
+      "source": {
+          "id": "google-news",
+          "name": "Google News"
+      },
+      "author": "Pink.rs",
+      "title": "OVO JE MIONINA KUĆA U KRAGUJEVCU! Joca novinar u poseti rodnom mestu učesnice ''Elite'' - roditelji se zavukli u MIŠJU RUPU, komšije razvezale jezik: - Pink.rs",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMirgFodHRwczovL3BpbmsucnMvZG9tYWNpLzU4MjI0OC9vdm8tamUtbWlvbmluYS1rdWNhLXUta3JhZ3VqZXZjdS1qb2NhLW5vdmluYXItdS1wb3NldGktcm9kbm9tLW1lc3R1LXVjZXNuaWNlLScnZWxpdGUnJy1yb2RpdGVsamktc2UtemF2dWtsaS11LW1pc2p1LXJ1cHUta29tc2lqZS1yYXp2ZXphbGUtamV6aWvSAQA?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2024-03-24T15:40:26Z",
+      "content": null
+  },
+  {
+      "source": {
+          "id": "google-news",
+          "name": "Google News"
+      },
+      "author": "INFORMER",
+      "title": "Srbi nisu poginuli u Moskvi u terorističkom napadu! Pojavile se lažne informacije - INFORMER",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMieWh0dHBzOi8vaW5mb3JtZXIucnMvdmVzdGkvZHJ1c3R2by84ODg3ODgvc3JiaS1uaXN1LXBvZ2ludWxpLXUtbW9za3ZpLXUtdGVyb3Jpc3RpY2tvbS1uYXBhZHUtcG9qYXZpbGUtc2UtbGF6bmUtaW5mb3JtYWNpamXSAX1odHRwczovL2luZm9ybWVyLnJzL2FtcC92ZXN0aS9kcnVzdHZvLzg4ODc4OC9zcmJpLW5pc3UtcG9naW51bGktdS1tb3NrdmktdS10ZXJvcmlzdGlja29tLW5hcGFkdS1wb2phdmlsZS1zZS1sYXpuZS1pbmZvcm1hY2lqZQ?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2024-03-24T15:31:00Z",
+      "content": null
+  },
+  {
+      "source": {
+          "id": "google-news",
+          "name": "Google News"
+      },
+      "author": "Telegraf.rs",
+      "title": "Mećava na Zlatiboru! Uvedena zabrana za teretnjake na ovim deonicama - Telegraf.rs",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMicGh0dHBzOi8vd3d3LnRlbGVncmFmLnJzL3Zlc3RpL3NyYmlqYS8zODYwNDE0LW1lY2F2YS1uYS16bGF0aWJvcnUtdXZlZGVuYS16YWJyYW5hLXphLXRlcmV0bmpha2UtbmEtb3ZpbS1kZW9uaWNhbWHSAQA?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2024-03-24T15:30:01Z",
+      "content": null
+  },
+  {
+      "source": {
+          "id": "google-news",
+          "name": "Google News"
+      },
+      "author": "Alo!",
+      "title": "HOROR NA RELIJU U MAĐARSKOJ Automobil uleteo u publiku, poginula 4 gledaoca, među žrtvama i devojčica (VIDEO) - Alo!",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMikwFodHRwczovL3d3dy5hbG8ucnMvdmVzdGkvc3ZldC84ODY3MjYvaG9yb3ItbmEtcmVsaWp1LXUtbWFkYXJza29qLWF1dG9tb2JpbC11bGV0ZW8tdS1wdWJsaWt1LXBvZ2ludWxhLTQtZ2xlZGFvY2EtbWVkdS16cnR2YW1hLWktZGV2b2pjaWNhLXZpZGVvL3Zlc3TSAQA?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2024-03-24T15:13:00Z",
+      "content": null
+  }
+]
