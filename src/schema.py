@@ -67,7 +67,16 @@ class Query(graphene.ObjectType):
     Общий тип для запроса получения данных.
     """
 
+    place = graphene.Field(Place, _id=graphene.Int())
     places = graphene.List(Place)
+
+
+    @staticmethod
+    def resolve_place(
+        parent: Optional[dict], info: ResolveInfo, _id: int  # pylint: disable=unused-argument
+    ) -> list[PlaceModel]:
+        return PlacesService().get_place(_id)
+
 
     @staticmethod
     def resolve_places(
