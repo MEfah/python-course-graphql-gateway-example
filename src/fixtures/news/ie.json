@@ -1,0 +1,67 @@
+[
+  {
+      "source": {
+          "id": "google-news",
+          "name": "Google News"
+      },
+      "author": "RTE.ie",
+      "title": "Hurling League semi-final: Clare v Tipperary updates - RTE.ie",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMiZ2h0dHBzOi8vd3d3LnJ0ZS5pZS9zcG9ydC9odXJsaW5nLzIwMjQvMDMyNC8xNDM5Njg1LWh1cmxpbmctbGVhZ3VlLXNlbWktZmluYWwtY2xhcmUtdi10aXBwZXJhcnktdXBkYXRlcy_SAR9odHRwczovL2FtcC5ydGUuaWUvYW1wLzE0Mzk2ODUv?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2024-03-24T16:29:04Z",
+      "content": null
+  },
+  {
+      "source": {
+          "id": "google-news",
+          "name": "Google News"
+      },
+      "author": "Cork Beo",
+      "title": "Man charged in connection with fatal sword attack of young dad in Cobh - Cork Beo",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMiUmh0dHBzOi8vd3d3LmNvcmtiZW8uaWUvbmV3cy9sb2NhbC1uZXdzL21hbi1jaGFyZ2VkLWNvbm5lY3Rpb24tZmF0YWwtc3dvcmQtMjg4NzgyMTfSAVZodHRwczovL3d3dy5jb3JrYmVvLmllL25ld3MvbG9jYWwtbmV3cy9tYW4tY2hhcmdlZC1jb25uZWN0aW9uLWZhdGFsLXN3b3JkLTI4ODc4MjE3LmFtcA?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2024-03-24T15:01:40Z",
+      "content": null
+  },
+  {
+      "source": {
+          "id": "google-news",
+          "name": "Google News"
+      },
+      "author": "Kilkenny Live",
+      "title": "Measles latest: MMR vaccine catch-up clinic to take place in Kilkenny on Friday - Kilkenny Live",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMiiQFodHRwczovL3d3dy5raWxrZW5ueXBlb3BsZS5pZS9uZXdzL2xvY2FsLW5ld3MvMTQ1NzE1Ni9tZWFzbGVzLWxhdGVzdC1tbXItdmFjY2luZS1jYXRjaC11cC1jbGluaWMtdG8tdGFrZS1wbGFjZS1pbi1raWxrZW5ueS1vbi1mcmlkYXkuaHRtbNIBAA?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2024-03-24T14:58:57Z",
+      "content": null
+  },
+  {
+      "source": {
+          "id": "google-news",
+          "name": "Google News"
+      },
+      "author": "Cork Beo",
+      "title": "Cork shop that sold winning €500k ticket named as players urged to check tickets - Cork Beo",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMiS2h0dHBzOi8vd3d3LmNvcmtiZW8uaWUvbmV3cy9sb2NhbC1uZXdzL2Nvcmstc2hvcC1zb2xkLXdpbm5pbmctNTAway0yODg3ODAxNNIBT2h0dHBzOi8vd3d3LmNvcmtiZW8uaWUvbmV3cy9sb2NhbC1uZXdzL2Nvcmstc2hvcC1zb2xkLXdpbm5pbmctNTAway0yODg3ODAxNC5hbXA?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2024-03-24T14:25:18Z",
+      "content": null
+  },
+  {
+      "source": {
+          "id": "the-washington-post",
+          "name": "The Washington Post"
+      },
+      "author": "Chris Velazco",
+      "title": "How to take pictures of the eclipse using your phone - The Washington Post",
+      "description": "Taking pictures of this year’s stunning total eclipse shouldn’t be too hard — as long as you’re prepared. Here’s what you need to do.",
+      "url": "https://www.washingtonpost.com/technology/2024/03/24/how-to-take-pictures-eclipse-phone/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/MF7AJBLGTRBCBISYOISOJ5FF4E.jpg&w=1440",
+      "publishedAt": "2024-03-24T14:10:44Z",
+      "content": "Return to menuTools to shoot the eclipse\r\nWith a little preparation, a little patience, the \r\nright settings and some simple equipment, you can capture decent images even if your location is under \r\n… [+3732 chars]"
+  }
+]

@@ -2,6 +2,7 @@ from promise import Promise
 from promise.dataloader import DataLoader
 
 from services.countries import CountriesService
+from src.services.news import NewsService
 
 
 class CountryLoader(DataLoader):
@@ -24,3 +25,22 @@ class CountryLoader(DataLoader):
 
         # формирование результата с сохранением порядка из alpha2codes
         return Promise.resolve([countries_map.get(code) for code in alpha2codes])
+
+
+class NewsLoader(DataLoader):
+    """
+    Загрузчик данных о новостях.
+    """
+
+    def batch_load_fn(  # pylint: disable=method-hidden
+        self, alpha2codes: list[str]
+    ) -> Promise:
+        """
+        Функция для загрузки связанных данных о новостях по переданному множеству кодов стран.
+        
+        :param alpha2codes: Список ISO Alpha2-кодов стран
+        :return:
+        """
+        news = NewsService().get_news(alpha2codes)
+        
+        return Promise.resolve([news.get(code) for code in alpha2codes if code])

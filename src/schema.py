@@ -5,7 +5,7 @@ from graphene import Schema
 from graphql import ResolveInfo
 from promise import Promise
 
-from context import DATA_LOADER_COUNTRIES
+from context import DATA_LOADER_COUNTRIES, DATA_LOADER_NEWS
 from models.places import PlaceModel
 from services.places import PlacesService
 
@@ -32,6 +32,21 @@ class Country(graphene.ObjectType):
     languages = graphene.List(graphene.String)
 
 
+class News(graphene.ObjectType):
+    """
+    Тип объекта новости.
+    """
+
+    author = graphene.String()
+    source = graphene.String()
+    title = graphene.String()
+    description = graphene.String()
+    url = graphene.String()
+    url_to_image = graphene.String()
+    published_at = graphene.DateTime()
+    content = graphene.String()
+
+
 class Place(graphene.ObjectType):
     """
     Тип объекта любимого места.
@@ -43,6 +58,8 @@ class Place(graphene.ObjectType):
     city = graphene.String()
     locality = graphene.String()
     country = graphene.Field(Country)
+    news = graphene.List(News)
+    
 
     @staticmethod
     def resolve_country(parent: PlaceModel, info: ResolveInfo) -> Promise:
@@ -60,6 +77,25 @@ class Place(graphene.ObjectType):
             return dataloaders[DATA_LOADER_COUNTRIES].load(str(parent.country))
 
         return Promise.resolve([])
+    
+    
+    @staticmethod
+    def resolve_news(parent: PlaceModel, info: ResolveInfo) -> Promise:
+        """
+        Получение связанной информации о новостях для объектов любимых мест.
+        
+        :param parent: Объект любимого места.
+        :param info: Объект с метаинформацией и данных о контексте запроса.
+        :return:
+        """
+
+        if info.context:
+            dataloaders = info.context["dataloaders"]
+
+            return dataloaders[DATA_LOADER_NEWS].load(str(parent.country))
+
+        return Promise.resolve([])
+
 
 
 class Query(graphene.ObjectType):
